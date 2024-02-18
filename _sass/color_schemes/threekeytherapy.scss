@@ -11,6 +11,13 @@ Mahogony red #7A1502
 -
 Earth Orange #D55A1F
 Olive Green #747500
+
+font options
+
+theme light #ABB7B7
+theme mid #6c7a89
+darker #5d6976
+darkest #4e5964
 */
 
 $background_color: #FAF6DB;
@@ -32,7 +39,7 @@ $nav-child-link-color: $accent_color;
 $sidebar-color: $background_color;
 $base-button-color: $background_color;
 $btn-primary-color: $text_dark_color;
-$code-background-color: $grey-lt-000 !default;
+$code-background-color: $grey-lt-100;
 $feedback-color: darken($sidebar-color, 3%);
 $table-background-color: $text_light_color;
 $search-background-color: $background_color;
@@ -56,5 +63,24 @@ $feedback-color: darken($sidebar-color, 3%) !default;
 $table-background-color: $white !default;
 $search-background-color: $white !default;
 $search-result-preview-color: $grey-dk-000 !default;
+
+Just the docs dark theme defaults
+
+$color-scheme: dark;
+$body-background-color: $grey-dk-300;
+$body-heading-color: $grey-lt-000;
+$body-text-color: $grey-lt-300;
+$link-color: $blue-000;
+$nav-child-link-color: $grey-dk-000;
+$sidebar-color: $grey-dk-300;
+$base-button-color: $grey-dk-250;
+$btn-primary-color: $blue-200;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: $grey-dk-250;
+$search-background-color: $grey-dk-250;
+$search-result-preview-color: $grey-dk-000;
+$border-color: $grey-dk-200;
 
 */
