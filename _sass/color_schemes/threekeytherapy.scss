@@ -1,0 +1,41 @@
+$color-scheme: threekeytherapy;
+
+/*
+Variables as defined in _config of threekeytherapy.com
+
+Reminder of colours:
+Soft creme #FAF6DB
+Clay yellow # FFCD7E
+Burnt tangerine #F7941D
+Mahogony red #7A1502
+-
+Earth Orange #D55A1F
+Olive Green #747500
+*/
+
+$background_color: '#FAF6DB'
+$background_alt_color: '#FFCD7E'
+$text_dark_color: '#7A1502'
+$text_medium_color: '#5d6976'
+$text_light_color: '#6C7A89'
+$accent_color: '#D55A1F'
+$border_color: '#7A1502'
+$hero_background_color: '#7A1502'
+$hero_text_color: '#FAF6DB'
+$error_color: '#7A1502'
+
+$body-background-color: $background_color;
+$body-heading-color: $background_alt_color;
+$body-text-color: $text_medium_color;
+$link-color: $accent_color;
+$nav-child-link-color: $text_medium_color;
+$sidebar-color: $background_color;
+$base-button-color: $text_light_color;
+$btn-primary-color: $border_color;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: $text_light_color;
+$search-background-color: $text_light_color;
+$search-result-preview-color: $text_medium_color;
+$border-color: $border_color;
